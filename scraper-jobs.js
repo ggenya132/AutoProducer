@@ -1,7 +1,15 @@
 const scraperJobs = [];
 var AWS = require('aws-sdk');
 const puppeteer = require('puppeteer');
-
+const {
+  readInventoryAsJson,
+  getHasedVehicleJson,
+  writeInventoryAsJson
+} = require('./jsonUtil');
+let inventory = readInventoryAsJson();
+// We use this variable to decide if we're building our car inventory or whether we need to start publishing vehicles,
+// We don't want to pubish anything we already have in inventory
+let isFirstTimeRunningScraperJobs = true;
 function scraperOtomoto(urlToScrape) {
   function scraperFunctionForUrl() {
     (async () => {
@@ -55,12 +63,20 @@ function scraperOtomoto(urlToScrape) {
         // return articleElements;
       });
       console.log({ classGData });
+      hasedInventory = classGData.reduce((acc, next) => {
+        acc = { ...acc, ...getHasedVehicleJson(next) };
+        return acc;
+      }, {});
       let parsedString = classGData
+        // We only want cars we don't already have in inventory
+        .filter(({ link }) => !inventory.hasOwnProperty(link))
         .map(({ name, price, link }) => {
           return `Model: ${name}, Price:${price}, Link: ${link}`;
         })
         .join(' ')
         .trim();
+      inventory = { ...inventory, ...hasedInventory };
+      writeInventoryAsJson(inventory);
 
       const firstCar = classGData[0];
       const TopicArn = 'arn:aws:sns:us-east-1:674309893935:AutoTopic';
@@ -71,11 +87,11 @@ function scraperOtomoto(urlToScrape) {
         Subject: 'Test SNS From Lambda',
         TopicArn
       };
-      sns.publish(params, function(err, data) {
-        if (err) console.log(err, err.stack);
-        // an error occurred
-        else console.log(data); // successful response
-      });
+      // sns.publish(params, function(err, data) {
+      //   if (err) console.log(err, err.stack);
+      //   // an error occurred
+      //   else console.log(data); // successful response
+      // });
       await browser.close();
     })();
   }
@@ -163,13 +179,19 @@ function scraperAutoScout24(urlToScrape) {
         });
         return classGs;
       });
-      console.log({ classGData });
+      hasedInventory = classGData.reduce((acc, next) => {
+        acc = { ...acc, ...getHasedVehicleJson(next) };
+        return acc;
+      }, {});
       let parsedString = classGData
+        .filter(({ link }) => !inventory.hasOwnProperty(link))
         .map(({ name, price, link }) => {
           return `Model: ${name}, Price:${price}, Link: ${link}`;
         })
         .join(' ')
         .trim();
+      inventory = { ...inventory, ...hasedInventory };
+      writeInventoryAsJson(inventory);
 
       const firstCar = classGData[0];
       const TopicArn = 'arn:aws:sns:us-east-1:674309893935:AutoTopic';
@@ -180,11 +202,11 @@ function scraperAutoScout24(urlToScrape) {
         Subject: 'Test SNS From Lambda',
         TopicArn
       };
-      sns.publish(params, function(err, data) {
-        if (err) console.log(err, err.stack);
-        // an error occurred
-        else console.log(data); // successful response
-      });
+      // sns.publish(params, function(err, data) {
+      //   if (err) console.log(err, err.stack);
+      //   // an error occurred
+      //   else console.log(data); // successful response
+      // });
       await browser.close();
     })();
   }
