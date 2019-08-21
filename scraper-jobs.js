@@ -4,13 +4,18 @@ const puppeteer = require('puppeteer');
 const {
   readInventoryAsJson,
   getHasedVehicleJson,
-  writeInventoryAsJson
+  writeInventoryAsJson,
+  vehicleIsFromToday
 } = require('./jsonUtil');
 let inventory = readInventoryAsJson();
 // We use this variable to decide if we're building our car inventory or whether we need to start publishing vehicles,
 // We don't want to pubish anything we already have in inventory
 let isFirstTimeRunningScraperJobs = true;
 function scraperOtomoto(urlToScrape) {
+  console.log({ inventory });
+  for (key in inventory) {
+    console.log({ vehicleIsFromToday: vehicleIsFromToday(inventory[key]) });
+  }
   function scraperFunctionForUrl() {
     (async () => {
       console.log({ puppeteer });
@@ -62,9 +67,13 @@ function scraperOtomoto(urlToScrape) {
         return classGs;
         // return articleElements;
       });
-      console.log({ classGData });
       hasedInventory = classGData.reduce((acc, next) => {
-        acc = { ...acc, ...getHasedVehicleJson(next) };
+        // IF DON'T ALREADY HAVE THIS THING
+        console.log({ hasOwnProp: inventory.hasOwnProperty(next.link) });
+        if (!inventory.hasOwnProperty(next.link)) {
+          console.log('in acc block');
+          acc = { ...acc, ...getHasedVehicleJson(next) };
+        }
         return acc;
       }, {});
       let parsedString = classGData
@@ -75,23 +84,13 @@ function scraperOtomoto(urlToScrape) {
         })
         .join(' ')
         .trim();
-      inventory = { ...inventory, ...hasedInventory };
-      writeInventoryAsJson(inventory);
 
-      const firstCar = classGData[0];
-      const TopicArn = 'arn:aws:sns:us-east-1:674309893935:AutoTopic';
-      const smsString = `Link: ${firstCar.link}`;
-      var sns = new AWS.SNS();
-      var params = {
-        Message: parsedString,
-        Subject: 'Test SNS From Lambda',
-        TopicArn
-      };
-      // sns.publish(params, function(err, data) {
-      //   if (err) console.log(err, err.stack);
-      //   // an error occurred
-      //   else console.log(data); // successful response
-      // });
+      if (Object.keys(hasedInventory).length > 0) {
+        inventory = { ...inventory, ...hasedInventory };
+
+        writeInventoryAsJson(inventory);
+      }
+
       await browser.close();
     })();
   }
@@ -109,6 +108,8 @@ let doScrapeOtomotoDefender = scraperOtomoto(
 scraperJobs.push(doScrapeOtomotoDefender);
 
 function scraperAutoScout24(urlToScrape) {
+  console.log({ inventory });
+
   function scraperFunctionForUrl() {
     (async () => {
       console.log({ puppeteer });
@@ -180,33 +181,18 @@ function scraperAutoScout24(urlToScrape) {
         return classGs;
       });
       hasedInventory = classGData.reduce((acc, next) => {
-        acc = { ...acc, ...getHasedVehicleJson(next) };
+        if (!inventory.hasOwnProperty(next.link)) {
+          console.log('in acc block');
+          acc = { ...acc, ...getHasedVehicleJson(next) };
+        }
         return acc;
       }, {});
-      let parsedString = classGData
-        .filter(({ link }) => !inventory.hasOwnProperty(link))
-        .map(({ name, price, link }) => {
-          return `Model: ${name}, Price:${price}, Link: ${link}`;
-        })
-        .join(' ')
-        .trim();
-      inventory = { ...inventory, ...hasedInventory };
-      writeInventoryAsJson(inventory);
 
-      const firstCar = classGData[0];
-      const TopicArn = 'arn:aws:sns:us-east-1:674309893935:AutoTopic';
-      const smsString = `Link: ${firstCar.link}`;
-      var sns = new AWS.SNS();
-      var params = {
-        Message: parsedString,
-        Subject: 'Test SNS From Lambda',
-        TopicArn
-      };
-      // sns.publish(params, function(err, data) {
-      //   if (err) console.log(err, err.stack);
-      //   // an error occurred
-      //   else console.log(data); // successful response
-      // });
+      if (Object.keys(hasedInventory).length > 0) {
+        inventory = { ...inventory, ...hasedInventory };
+        writeInventoryAsJson(inventory);
+      }
+
       await browser.close();
     })();
   }
