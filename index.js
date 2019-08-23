@@ -1,9 +1,21 @@
 var AWS = require('aws-sdk');
 AWS.config.loadFromPath('./config.json');
-require('./sendEmail')('eugene.vedensky@gmail.com');
-// const { publishData, readInventoryAsJson } = require('./jsonUtil');
-// const scraperJobs = require('./scraper-jobs');
-// const scrapesPerDay = 1000 * 60 * 60 * 24;
+const {
+  getInventoryToSendAsSms,
+  formatVehicleAsHtmlEmailText,
+  invokeAllScraperJobs
+} = require('./jsonUtil');
 
-// scraperJobs.forEach(scraperJob => scraperJob());
-// publishData(readInventoryAsJson(), new AWS.SNS());
+const { subscribers } = require('./config.json');
+
+const scraperJobs = require('./scraper-jobs');
+invokeAllScraperJobs(scraperJobs)
+  .then(scrapingIsDone =>
+    getInventoryToSendAsSms(require('./inventory.json'))
+      .map(formatVehicleAsHtmlEmailText)
+      .join('')
+      .trim()
+  )
+  .then(html => {
+    require('./sendEmail')(subscribers, html);
+  });

@@ -16,7 +16,7 @@ function scraperOtomoto(urlToScrape) {
   for (key in inventory) {
     console.log({ vehicleIsFromToday: vehicleIsFromToday(inventory[key]) });
   }
-  function scraperFunctionForUrl() {
+  async function scraperFunctionForUrl() {
     (async () => {
       console.log({ puppeteer });
       const browser = await puppeteer.launch({
@@ -110,7 +110,7 @@ scraperJobs.push(doScrapeOtomotoDefender);
 function scraperAutoScout24(urlToScrape) {
   console.log({ inventory });
 
-  function scraperFunctionForUrl() {
+  async function scraperFunctionForUrl() {
     (async () => {
       console.log({ puppeteer });
       const browser = await puppeteer.launch({
@@ -171,10 +171,12 @@ function scraperAutoScout24(urlToScrape) {
             ).innerText;
 
             //TODO:page link, need to confirm format
-            classGJson.link = classGElemenet
-              .querySelector('div.cldt-summary-titles')
-              .getElementsByTagName('a')[0]
-              .getAttribute('href');
+            classGJson.link =
+              'https://www.autoscout24.pl' +
+              classGElemenet
+                .querySelector('div.cldt-summary-titles')
+                .getElementsByTagName('a')[0]
+                .getAttribute('href');
           } catch (exception) {}
           classGs.push(classGJson);
         });

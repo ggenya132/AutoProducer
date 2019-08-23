@@ -1,273 +1,285 @@
 {
-  "/oferta/land-rover-defender-90-200-tdi-diesel-szary-b52d5869-a35c-42e2-9b87-b11fd2d35b88?cldtidx=1": {
-    "name": "Land Rover Defender 90 200 tdi",
-    "price": "€ 19.500,-",
-    "link": "/oferta/land-rover-defender-90-200-tdi-diesel-szary-b52d5869-a35c-42e2-9b87-b11fd2d35b88?cldtidx=1",
-    "scrapeDate": "2019-07-21T02:59:31.630Z"
-  },
-  "/oferta/land-rover-defender-90-2-5-tdi-hard-top-diesel-czarny-915e2890-f811-141f-e053-e250040a4740?cldtidx=2": {
-    "name": "Land Rover Defender 90 2.5 Tdi Hard-top",
-    "price": "€ 19.000,-",
-    "link": "/oferta/land-rover-defender-90-2-5-tdi-hard-top-diesel-czarny-915e2890-f811-141f-e053-e250040a4740?cldtidx=2",
-    "scrapeDate": "2019-07-21T02:59:31.630Z"
-  },
-  "/oferta/land-rover-defender-90-2-5-tdi-hard-top-diesel-bialy-4fc02490-8044-125d-e053-e250040a810f?cldtidx=3": {
-    "name": "Land Rover Defender 90 2.5 Tdi Hard-top",
-    "price": "€ 6.000,-",
-    "link": "/oferta/land-rover-defender-90-2-5-tdi-hard-top-diesel-bialy-4fc02490-8044-125d-e053-e250040a810f?cldtidx=3",
-    "scrapeDate": "2019-07-21T02:59:31.630Z"
-  },
-  "/oferta/land-rover-defender-90-tdi200-diesel-zolty-6f6a0d90-5477-f60d-e053-e250040af563?cldtidx=4": {
-    "name": "Land Rover Defender 90 Tdi200",
-    "price": "€ 10.000,-",
-    "link": "/oferta/land-rover-defender-90-tdi200-diesel-zolty-6f6a0d90-5477-f60d-e053-e250040af563?cldtidx=4",
-    "scrapeDate": "2019-07-21T02:59:31.630Z"
+  "https://www.otomoto.pl/oferta/land-rover-defender-model-110-2-5-diesel-sprowadzony-oplacony-w-pelni-sprawny-ID6CdTKv.html": {
+    "name": "Land Rover Defender\nmodel 110 2.5 diesel sprowadzony opłacony w pełni sprawny",
+    "price": "29 000 PLN\nDo negocjacji",
+    "link": "https://www.otomoto.pl/oferta/land-rover-defender-model-110-2-5-diesel-sprowadzony-oplacony-w-pelni-sprawny-ID6CdTKv.html",
+    "scrapeDate": "2019-08-23T02:54:11.409Z"
   },
   "https://www.otomoto.pl/oferta/land-rover-defender-land-rover-defender-110-95-rok-6-osob-ID6zMhAq.html": {
     "name": "Land Rover Defender\nLand Rover Defender 110 95 rok 6 osób",
     "price": "59 000 PLN",
     "link": "https://www.otomoto.pl/oferta/land-rover-defender-land-rover-defender-110-95-rok-6-osob-ID6zMhAq.html",
-    "scrapeDate": "2019-08-21T03:01:04.605Z"
+    "scrapeDate": "2019-08-23T02:54:11.409Z"
   },
-  "https://www.otomoto.pl/oferta/land-rover-defender-model-110-2-5-diesel-sprowadzony-oplacony-w-pelni-sprawny-ID6CdTKv.html": {
-    "name": "Land Rover Defender\nmodel 110 2.5 diesel sprowadzony opłacony w pełni sprawny",
-    "price": "29 000 PLN\nDo negocjacji",
-    "link": "https://www.otomoto.pl/oferta/land-rover-defender-model-110-2-5-diesel-sprowadzony-oplacony-w-pelni-sprawny-ID6CdTKv.html",
-    "scrapeDate": "2019-08-21T03:01:04.605Z"
+  "https://www.autoscout24.pl/oferta/land-rover-defender-90-2-5-tdi-hard-topoff-road-omologazione-cee-diesel-szary-49ce3c0b-3ee7-45d9-b5af-cdc0b7ff69f3?cldtidx=1": {
+    "name": "Land Rover Defender 90 2.5 Tdi Hard-topOFF ROAD/OMOLOGAZIONE CEE",
+    "price": "€ 39.900,-",
+    "link": "https://www.autoscout24.pl/oferta/land-rover-defender-90-2-5-tdi-hard-topoff-road-omologazione-cee-diesel-szary-49ce3c0b-3ee7-45d9-b5af-cdc0b7ff69f3?cldtidx=1",
+    "scrapeDate": "2019-08-23T02:54:12.328Z"
   },
-  "/oferta/mercedes-benz-g-240-wolf-ex-army-diesel-srebrny-7b2dc144-93c0-4e46-a647-4c3fabb7c06c?cldtidx=1": {
+  "https://www.autoscout24.pl/oferta/land-rover-defender-90-200-tdi-diesel-szary-b52d5869-a35c-42e2-9b87-b11fd2d35b88?cldtidx=2": {
+    "name": "Land Rover Defender 90 200 tdi",
+    "price": "€ 19.500,-",
+    "link": "https://www.autoscout24.pl/oferta/land-rover-defender-90-200-tdi-diesel-szary-b52d5869-a35c-42e2-9b87-b11fd2d35b88?cldtidx=2",
+    "scrapeDate": "2019-08-23T02:54:12.328Z"
+  },
+  "https://www.autoscout24.pl/oferta/land-rover-defender-90-2-5-tdi-hard-top-diesel-bialy-4fc02490-8044-125d-e053-e250040a810f?cldtidx=3": {
+    "name": "Land Rover Defender 90 2.5 Tdi Hard-top",
+    "price": "€ 6.000,-",
+    "link": "https://www.autoscout24.pl/oferta/land-rover-defender-90-2-5-tdi-hard-top-diesel-bialy-4fc02490-8044-125d-e053-e250040a810f?cldtidx=3",
+    "scrapeDate": "2019-08-23T02:54:12.328Z"
+  },
+  "https://www.autoscout24.pl/oferta/land-rover-defender-90-tdi200-diesel-zolty-6f6a0d90-5477-f60d-e053-e250040af563?cldtidx=4": {
+    "name": "Land Rover Defender 90 Tdi200",
+    "price": "€ 10.000,-",
+    "link": "https://www.autoscout24.pl/oferta/land-rover-defender-90-tdi200-diesel-zolty-6f6a0d90-5477-f60d-e053-e250040af563?cldtidx=4",
+    "scrapeDate": "2019-08-23T02:54:12.328Z"
+  },
+  "https://www.autoscout24.pl/oferta/land-rover-defender-90-2-5-tdi-hard-top-diesel-bialy-8255eb8f-c336-5924-e053-e250040ad7ed?cldtidx=5": {
+    "name": "Land Rover Defender 90 2.5 Tdi Hard-top",
+    "price": "€ 27.000,-",
+    "link": "https://www.autoscout24.pl/oferta/land-rover-defender-90-2-5-tdi-hard-top-diesel-bialy-8255eb8f-c336-5924-e053-e250040ad7ed?cldtidx=5",
+    "scrapeDate": "2019-08-23T02:54:12.328Z"
+  },
+  "https://www.autoscout24.pl/oferta/land-rover-defender-110-ht-diesel-niebieski-defb968f-46a0-0d14-e053-e250040a832a?cldtidx=6": {
+    "name": "Land Rover Defender 110 HT",
+    "price": "€ 14.000,-",
+    "link": "https://www.autoscout24.pl/oferta/land-rover-defender-110-ht-diesel-niebieski-defb968f-46a0-0d14-e053-e250040a832a?cldtidx=6",
+    "scrapeDate": "2019-08-23T02:54:12.328Z"
+  },
+  "https://www.autoscout24.pl/oferta/land-rover-defender-2-5d-90-hard-top-diesel-szary-4d4c378f-7dc1-f53e-e053-e250040a06dc?cldtidx=7": {
+    "name": "Land Rover Defender 2.5D 90\" Hard Top",
+    "price": "€ 5.500,-",
+    "link": "https://www.autoscout24.pl/oferta/land-rover-defender-2-5d-90-hard-top-diesel-szary-4d4c378f-7dc1-f53e-e053-e250040a06dc?cldtidx=7",
+    "scrapeDate": "2019-08-23T02:54:12.328Z"
+  },
+  "https://www.autoscout24.pl/oferta/land-rover-defender-90-2-5-tdi-diesel-zielony-4f840db2-9832-4c97-adea-ed60051b121b?cldtidx=8": {
+    "name": "Land Rover Defender 90 2.5 Tdi",
+    "price": "€ 15.000,-",
+    "link": "https://www.autoscout24.pl/oferta/land-rover-defender-90-2-5-tdi-diesel-zielony-4f840db2-9832-4c97-adea-ed60051b121b?cldtidx=8",
+    "scrapeDate": "2019-08-23T02:54:12.328Z"
+  },
+  "https://www.autoscout24.pl/oferta/land-rover-defender-lier-diesel-bezowy-9785f929-ad2c-459a-90ee-3757215c0697?cldtidx=9": {
+    "name": "Land Rover Defender Lier",
+    "price": "€ 4.250,-",
+    "link": "https://www.autoscout24.pl/oferta/land-rover-defender-lier-diesel-bezowy-9785f929-ad2c-459a-90ee-3757215c0697?cldtidx=9",
+    "scrapeDate": "2019-08-23T02:54:12.328Z"
+  },
+  "https://www.autoscout24.pl/oferta/land-rover-defender-110-tdi-sw-diesel-zielony-c1a2f58e-c345-953b-e053-e250040ac3be?cldtidx=10": {
+    "name": "Land Rover Defender 110 TDI SW",
+    "price": "€ 25.000,-",
+    "link": "https://www.autoscout24.pl/oferta/land-rover-defender-110-tdi-sw-diesel-zielony-c1a2f58e-c345-953b-e053-e250040ac3be?cldtidx=10",
+    "scrapeDate": "2019-08-23T02:54:12.328Z"
+  },
+  "https://www.autoscout24.pl/oferta/land-rover-defender-motore-con-7-000-km-diesel-zielony-52f4cbef-217b-4b5a-9329-94660fefe253?cldtidx=11": {
+    "name": "Land Rover Defender MOTORE CON 7.000 KM",
+    "price": "€ 12.500,-",
+    "link": "https://www.autoscout24.pl/oferta/land-rover-defender-motore-con-7-000-km-diesel-zielony-52f4cbef-217b-4b5a-9329-94660fefe253?cldtidx=11",
+    "scrapeDate": "2019-08-23T02:54:12.329Z"
+  },
+  "undefined": { "scrapeDate": "2019-08-23T02:54:12.329Z" },
+  "https://www.autoscout24.pl/oferta/land-rover-defender-90-2-5-tdi-hard-top-unico-diesel-niebieski-4346863f-5c7b-4e49-9708-001e195fc3fe?cldtidx=13": {
+    "name": "Land Rover Defender 90 2.5 Tdi Hard-top ***UNICO***",
+    "price": "€ 26.200,-",
+    "link": "https://www.autoscout24.pl/oferta/land-rover-defender-90-2-5-tdi-hard-top-unico-diesel-niebieski-4346863f-5c7b-4e49-9708-001e195fc3fe?cldtidx=13",
+    "scrapeDate": "2019-08-23T02:54:12.329Z"
+  },
+  "https://www.autoscout24.pl/oferta/land-rover-defender-90-2-5-tdi-hard-top-diesel-szary-3e74808e-ea5d-b466-e053-e250040a5850?cldtidx=14": {
+    "name": "Land Rover Defender 90 2.5 Tdi Hard-top",
+    "price": "€ 15.000,-",
+    "link": "https://www.autoscout24.pl/oferta/land-rover-defender-90-2-5-tdi-hard-top-diesel-szary-3e74808e-ea5d-b466-e053-e250040a5850?cldtidx=14",
+    "scrapeDate": "2019-08-23T02:54:12.329Z"
+  },
+  "https://www.autoscout24.pl/oferta/land-rover-defender-90tdi-200tdi-1992-oldtimer-diesel-zielony-fa4f26fd-f52a-4bc6-8b96-a4228bad183e?cldtidx=16": {
+    "name": "Land Rover Defender 90TDi (200Tdi) - 1992 - OLDTIMER",
+    "price": "€ 18.750,-",
+    "link": "https://www.autoscout24.pl/oferta/land-rover-defender-90tdi-200tdi-1992-oldtimer-diesel-zielony-fa4f26fd-f52a-4bc6-8b96-a4228bad183e?cldtidx=16",
+    "scrapeDate": "2019-08-23T02:54:12.329Z"
+  },
+  "https://www.autoscout24.pl/oferta/land-rover-defender-90-2-5-tdi-hard-top-autocarro-diesel-zielony-9762915d-b998-4f85-8c5d-f9b10313de16?cldtidx=17": {
+    "name": "Land Rover Defender 90 2.5 Tdi Hard-top AUTOCARRO",
+    "price": "€ 6.400,-",
+    "link": "https://www.autoscout24.pl/oferta/land-rover-defender-90-2-5-tdi-hard-top-autocarro-diesel-zielony-9762915d-b998-4f85-8c5d-f9b10313de16?cldtidx=17",
+    "scrapeDate": "2019-08-23T02:54:12.329Z"
+  },
+  "https://www.autoscout24.pl/oferta/land-rover-defender-110-2-5-tdi-station-wagon-count-diesel-bialy-4bcddc8d-a966-9c20-e053-e250040af697?cldtidx=19": {
+    "name": "Land Rover Defender 110 2.5 Tdi Station Wagon Count",
+    "price": "€ 12.000,-",
+    "link": "https://www.autoscout24.pl/oferta/land-rover-defender-110-2-5-tdi-station-wagon-count-diesel-bialy-4bcddc8d-a966-9c20-e053-e250040af697?cldtidx=19",
+    "scrapeDate": "2019-08-23T02:54:12.329Z"
+  },
+  "https://www.autoscout24.pl/oferta/land-rover-defender-90-2-5-tdi-autovettura-6-posti-gancio-traino-diesel-bialy-7504cc8d-c389-955f-e053-e250040aed88?cldtidx=20": {
+    "name": "Land Rover Defender 90 2.5 Tdi AUTOVETTURA 6 POSTI - GANCIO TRAINO",
+    "price": "€ 10.900,-",
+    "link": "https://www.autoscout24.pl/oferta/land-rover-defender-90-2-5-tdi-autovettura-6-posti-gancio-traino-diesel-bialy-7504cc8d-c389-955f-e053-e250040aed88?cldtidx=20",
+    "scrapeDate": "2019-08-23T02:54:12.329Z"
+  },
+  "https://www.autoscout24.pl/oferta/mercedes-benz-g-240-wolf-ex-army-diesel-srebrny-7b2dc144-93c0-4e46-a647-4c3fabb7c06c?cldtidx=1": {
     "name": "Mercedes-Benz G 240 **wolf**ex army**",
     "price": "€ 5.500,-",
-    "link": "/oferta/mercedes-benz-g-240-wolf-ex-army-diesel-srebrny-7b2dc144-93c0-4e46-a647-4c3fabb7c06c?cldtidx=1",
-    "scrapeDate": "2019-08-21T03:01:04.961Z"
+    "link": "https://www.autoscout24.pl/oferta/mercedes-benz-g-240-wolf-ex-army-diesel-srebrny-7b2dc144-93c0-4e46-a647-4c3fabb7c06c?cldtidx=1",
+    "scrapeDate": "2019-08-23T02:54:12.567Z"
   },
-  "/oferta/mercedes-benz-g-gd-corto-furgone-vetrato-diesel-szary-6c6b4fe9-c6f1-4c1a-a305-dc9459e70213?cldtidx=2": {
+  "https://www.autoscout24.pl/oferta/mercedes-benz-g-gd-corto-furgone-vetrato-diesel-szary-6c6b4fe9-c6f1-4c1a-a305-dc9459e70213?cldtidx=2": {
     "name": "Mercedes-Benz G GD corto Furgone vetrato",
     "price": "€ 5.900,-",
-    "link": "/oferta/mercedes-benz-g-gd-corto-furgone-vetrato-diesel-szary-6c6b4fe9-c6f1-4c1a-a305-dc9459e70213?cldtidx=2",
-    "scrapeDate": "2019-08-21T03:01:04.962Z"
+    "link": "https://www.autoscout24.pl/oferta/mercedes-benz-g-gd-corto-furgone-vetrato-diesel-szary-6c6b4fe9-c6f1-4c1a-a305-dc9459e70213?cldtidx=2",
+    "scrapeDate": "2019-08-23T02:54:12.568Z"
   },
-  "/oferta/mercedes-benz-g-300-gd-diesel-zielony-470b2dd5-7cf5-46ad-86fd-426798100b6c?cldtidx=3": {
+  "https://www.autoscout24.pl/oferta/mercedes-benz-g-300-gd-diesel-zielony-470b2dd5-7cf5-46ad-86fd-426798100b6c?cldtidx=3": {
     "name": "Mercedes-Benz G 300 GD",
     "price": "€ 5.999,-",
-    "link": "/oferta/mercedes-benz-g-300-gd-diesel-zielony-470b2dd5-7cf5-46ad-86fd-426798100b6c?cldtidx=3",
-    "scrapeDate": "2019-08-21T03:01:04.962Z"
+    "link": "https://www.autoscout24.pl/oferta/mercedes-benz-g-300-gd-diesel-zielony-470b2dd5-7cf5-46ad-86fd-426798100b6c?cldtidx=3",
+    "scrapeDate": "2019-08-23T02:54:12.568Z"
   },
-  "/oferta/mercedes-benz-g-gd-corto-station-wagon-240-diesel-bialy-b08a21cc-3e49-4ada-8cf5-e6774dca8d59?cldtidx=4": {
+  "https://www.autoscout24.pl/oferta/mercedes-benz-g-gd-corto-station-wagon-240-diesel-bialy-b08a21cc-3e49-4ada-8cf5-e6774dca8d59?cldtidx=4": {
     "name": "Mercedes-Benz G GD corto Station Wagon 240",
     "price": "€ 6.500,-",
-    "link": "/oferta/mercedes-benz-g-gd-corto-station-wagon-240-diesel-bialy-b08a21cc-3e49-4ada-8cf5-e6774dca8d59?cldtidx=4",
-    "scrapeDate": "2019-08-21T03:01:04.962Z"
+    "link": "https://www.autoscout24.pl/oferta/mercedes-benz-g-gd-corto-station-wagon-240-diesel-bialy-b08a21cc-3e49-4ada-8cf5-e6774dca8d59?cldtidx=4",
+    "scrapeDate": "2019-08-23T02:54:12.568Z"
   },
-  "/oferta/mercedes-benz-g-300-autocarro-diesel-czerwony-f6839556-5e0e-4ff4-b584-9103850a02c3?cldtidx=5": {
+  "https://www.autoscout24.pl/oferta/mercedes-benz-g-300-autocarro-diesel-czerwony-f6839556-5e0e-4ff4-b584-9103850a02c3?cldtidx=5": {
     "name": "Mercedes-Benz G 300 AUTOCARRO",
     "price": "€ 6.900,-",
-    "link": "/oferta/mercedes-benz-g-300-autocarro-diesel-czerwony-f6839556-5e0e-4ff4-b584-9103850a02c3?cldtidx=5",
-    "scrapeDate": "2019-08-21T03:01:04.962Z"
+    "link": "https://www.autoscout24.pl/oferta/mercedes-benz-g-300-autocarro-diesel-czerwony-f6839556-5e0e-4ff4-b584-9103850a02c3?cldtidx=5",
+    "scrapeDate": "2019-08-23T02:54:12.568Z"
   },
-  "/oferta/mercedes-benz-g-240-gd-diesel-zielony-6e3571fc-13bd-43a3-9cbf-0a87646ab699?cldtidx=6": {
+  "https://www.autoscout24.pl/oferta/mercedes-benz-g-240-gd-diesel-zielony-6e3571fc-13bd-43a3-9cbf-0a87646ab699?cldtidx=6": {
     "name": "Mercedes-Benz G 240 GD",
     "price": "€ 6.900,-",
-    "link": "/oferta/mercedes-benz-g-240-gd-diesel-zielony-6e3571fc-13bd-43a3-9cbf-0a87646ab699?cldtidx=6",
-    "scrapeDate": "2019-08-21T03:01:04.962Z"
+    "link": "https://www.autoscout24.pl/oferta/mercedes-benz-g-240-gd-diesel-zielony-6e3571fc-13bd-43a3-9cbf-0a87646ab699?cldtidx=6",
+    "scrapeDate": "2019-08-23T02:54:12.568Z"
   },
-  "/oferta/mercedes-benz-g-460-3-diesel-czarny-91b07288-3953-d026-e053-e250040a0311?cldtidx=7": {
+  "https://www.autoscout24.pl/oferta/mercedes-benz-g-460-3-diesel-czarny-91b07288-3953-d026-e053-e250040a0311?cldtidx=7": {
     "name": "Mercedes-Benz G 460.3",
     "price": "€ 7.800,-",
-    "link": "/oferta/mercedes-benz-g-460-3-diesel-czarny-91b07288-3953-d026-e053-e250040a0311?cldtidx=7",
-    "scrapeDate": "2019-08-21T03:01:04.962Z"
+    "link": "https://www.autoscout24.pl/oferta/mercedes-benz-g-460-3-diesel-czarny-91b07288-3953-d026-e053-e250040a0311?cldtidx=7",
+    "scrapeDate": "2019-08-23T02:54:12.568Z"
   },
-  "/oferta/mercedes-benz-g-300-g-300-5-marce-diesel-szary-de07ba0d-c057-4e61-b694-95adf6dc0fcc?cldtidx=8": {
+  "https://www.autoscout24.pl/oferta/mercedes-benz-g-300-g-300-5-marce-diesel-szary-de07ba0d-c057-4e61-b694-95adf6dc0fcc?cldtidx=8": {
     "name": "Mercedes-Benz G 300 G 300 \"\"5 MARCE\"\"",
     "price": "€ 7.900,-",
-    "link": "/oferta/mercedes-benz-g-300-g-300-5-marce-diesel-szary-de07ba0d-c057-4e61-b694-95adf6dc0fcc?cldtidx=8",
-    "scrapeDate": "2019-08-21T03:01:04.962Z"
+    "link": "https://www.autoscout24.pl/oferta/mercedes-benz-g-300-g-300-5-marce-diesel-szary-de07ba0d-c057-4e61-b694-95adf6dc0fcc?cldtidx=8",
+    "scrapeDate": "2019-08-23T02:54:12.568Z"
   },
-  "/oferta/mercedes-benz-g-300-gd-diesel-bialy-b5bba584-ac2f-46da-90f1-4822869022ac?cldtidx=9": {
+  "https://www.autoscout24.pl/oferta/mercedes-benz-g-300-gd-diesel-bialy-b5bba584-ac2f-46da-90f1-4822869022ac?cldtidx=9": {
     "name": "Mercedes-Benz G 300 GD",
     "price": "€ 8.900,-",
-    "link": "/oferta/mercedes-benz-g-300-gd-diesel-bialy-b5bba584-ac2f-46da-90f1-4822869022ac?cldtidx=9",
-    "scrapeDate": "2019-08-21T03:01:04.962Z"
+    "link": "https://www.autoscout24.pl/oferta/mercedes-benz-g-300-gd-diesel-bialy-b5bba584-ac2f-46da-90f1-4822869022ac?cldtidx=9",
+    "scrapeDate": "2019-08-23T02:54:12.568Z"
   },
-  "/oferta/mercedes-benz-g-300-gd-diesel-zielony-e22bdb88-283b-7468-e053-e250040ab8e5?cldtidx=10": {
+  "https://www.autoscout24.pl/oferta/mercedes-benz-g-300-gd-diesel-zielony-e22bdb88-283b-7468-e053-e250040ab8e5?cldtidx=10": {
     "name": "Mercedes-Benz G 300 GD",
     "price": "€ 9.500,- 2",
-    "link": "/oferta/mercedes-benz-g-300-gd-diesel-zielony-e22bdb88-283b-7468-e053-e250040ab8e5?cldtidx=10",
-    "scrapeDate": "2019-08-21T03:01:04.962Z"
+    "link": "https://www.autoscout24.pl/oferta/mercedes-benz-g-300-gd-diesel-zielony-e22bdb88-283b-7468-e053-e250040ab8e5?cldtidx=10",
+    "scrapeDate": "2019-08-23T02:54:12.568Z"
   },
-  "undefined": { "scrapeDate": "2019-08-21T03:01:04.963Z" },
-  "/oferta/mercedes-benz-g-250-gd-wolf-g-modell-allrad-cabrio-diesel-zielony-d853056e-3ddb-4781-9af4-d161834c9358?cldtidx=12": {
+  "https://www.autoscout24.pl/oferta/mercedes-benz-g-250-gd-wolf-g-modell-allrad-cabrio-diesel-zielony-d853056e-3ddb-4781-9af4-d161834c9358?cldtidx=11": {
     "name": "Mercedes-Benz G 250 GD Wolf G Modell Allrad Cabrio",
     "price": "€ 10.840,- 2",
-    "link": "/oferta/mercedes-benz-g-250-gd-wolf-g-modell-allrad-cabrio-diesel-zielony-d853056e-3ddb-4781-9af4-d161834c9358?cldtidx=12",
-    "scrapeDate": "2019-08-21T03:01:04.962Z"
+    "link": "https://www.autoscout24.pl/oferta/mercedes-benz-g-250-gd-wolf-g-modell-allrad-cabrio-diesel-zielony-d853056e-3ddb-4781-9af4-d161834c9358?cldtidx=11",
+    "scrapeDate": "2019-08-23T02:54:12.568Z"
   },
-  "/oferta/mercedes-benz-g-240-cdi-corto-sw-autocarro-diesel-srebrny-c96210f3-644e-404d-b4c9-f25261757adf?cldtidx=13": {
+  "https://www.autoscout24.pl/oferta/mercedes-benz-g-240-cdi-corto-sw-autocarro-diesel-srebrny-c96210f3-644e-404d-b4c9-f25261757adf?cldtidx=12": {
     "name": "Mercedes-Benz G 240 CDI Corto SW AUTOCARRO",
     "price": "€ 10.900,-",
-    "link": "/oferta/mercedes-benz-g-240-cdi-corto-sw-autocarro-diesel-srebrny-c96210f3-644e-404d-b4c9-f25261757adf?cldtidx=13",
-    "scrapeDate": "2019-08-21T03:01:04.962Z"
+    "link": "https://www.autoscout24.pl/oferta/mercedes-benz-g-240-cdi-corto-sw-autocarro-diesel-srebrny-c96210f3-644e-404d-b4c9-f25261757adf?cldtidx=12",
+    "scrapeDate": "2019-08-23T02:54:12.568Z"
   },
-  "/oferta/mercedes-benz-g-250-gd-diesel-zielony-0f2f229f-7c5d-4633-9cf8-5e02e827840c?cldtidx=14": {
+  "https://www.autoscout24.pl/oferta/mercedes-benz-g-250-gd-diesel-zielony-0f2f229f-7c5d-4633-9cf8-5e02e827840c?cldtidx=13": {
     "name": "Mercedes-Benz G 250 GD",
     "price": "€ 11.000,-",
-    "link": "/oferta/mercedes-benz-g-250-gd-diesel-zielony-0f2f229f-7c5d-4633-9cf8-5e02e827840c?cldtidx=14",
-    "scrapeDate": "2019-08-21T03:01:04.963Z"
+    "link": "https://www.autoscout24.pl/oferta/mercedes-benz-g-250-gd-diesel-zielony-0f2f229f-7c5d-4633-9cf8-5e02e827840c?cldtidx=13",
+    "scrapeDate": "2019-08-23T02:54:12.568Z"
   },
-  "/oferta/mercedes-benz-g-240-4x4-diesel-zielony-e971508c-037c-df5e-e053-e250040a364b?cldtidx=15": {
+  "https://www.autoscout24.pl/oferta/mercedes-benz-g-240-4x4-diesel-zielony-e971508c-037c-df5e-e053-e250040a364b?cldtidx=14": {
     "name": "Mercedes-Benz G 240 4x4",
     "price": "€ 11.250,-",
-    "link": "/oferta/mercedes-benz-g-240-4x4-diesel-zielony-e971508c-037c-df5e-e053-e250040a364b?cldtidx=15",
-    "scrapeDate": "2019-08-21T03:01:04.963Z"
+    "link": "https://www.autoscout24.pl/oferta/mercedes-benz-g-240-4x4-diesel-zielony-e971508c-037c-df5e-e053-e250040a364b?cldtidx=14",
+    "scrapeDate": "2019-08-23T02:54:12.568Z"
   },
-  "/oferta/mercedes-benz-g-300-gd-300-cabriolet-con-motore3000-6cilindri-cambio-a-diesel-bialy-f83b2d17-5bfa-b622-e053-e350040a1951?cldtidx=17": {
+  "https://www.autoscout24.pl/oferta/mercedes-benz-g-300-gd-300-cabriolet-con-motore3000-6cilindri-cambio-a-diesel-bialy-f83b2d17-5bfa-b622-e053-e350040a1951?cldtidx=17": {
     "name": "Mercedes-Benz G 300 GD 300 CABRIOLET con motore3000 6cilindri cambio a",
     "price": "€ 11.500,-",
-    "link": "/oferta/mercedes-benz-g-300-gd-300-cabriolet-con-motore3000-6cilindri-cambio-a-diesel-bialy-f83b2d17-5bfa-b622-e053-e350040a1951?cldtidx=17",
-    "scrapeDate": "2019-08-21T03:01:04.963Z"
+    "link": "https://www.autoscout24.pl/oferta/mercedes-benz-g-300-gd-300-cabriolet-con-motore3000-6cilindri-cambio-a-diesel-bialy-f83b2d17-5bfa-b622-e053-e350040a1951?cldtidx=17",
+    "scrapeDate": "2019-08-23T02:54:12.568Z"
   },
-  "/oferta/mercedes-benz-g-puch-wolf-d-corto-cabrio-diesel-brazowy-d5bbce23-f31f-49f7-be93-9f51cd62a762?cldtidx=19": {
+  "https://www.autoscout24.pl/oferta/mercedes-benz-g-puch-wolf-d-corto-cabrio-diesel-brazowy-d5bbce23-f31f-49f7-be93-9f51cd62a762?cldtidx=18": {
     "name": "Mercedes-Benz G PUCH/WOLF D corto Cabrio",
     "price": "€ 11.900,-",
-    "link": "/oferta/mercedes-benz-g-puch-wolf-d-corto-cabrio-diesel-brazowy-d5bbce23-f31f-49f7-be93-9f51cd62a762?cldtidx=19",
-    "scrapeDate": "2019-08-21T03:01:04.963Z"
+    "link": "https://www.autoscout24.pl/oferta/mercedes-benz-g-puch-wolf-d-corto-cabrio-diesel-brazowy-d5bbce23-f31f-49f7-be93-9f51cd62a762?cldtidx=18",
+    "scrapeDate": "2019-08-23T02:54:12.568Z"
   },
-  "/oferta/mercedes-benz-g-240-4x4-militaer-wolf-cabrio-5-sitzplaetze-tisch-diesel-zielony-97034405-3aad-4560-8da3-afdef9b51aa2?cldtidx=20": {
-    "name": "Mercedes-Benz G 240 4x4 Militär WOLF Cabrio 5 Sitzplätze Tisch",
-    "price": "€ 12.590,- 2",
-    "link": "/oferta/mercedes-benz-g-240-4x4-militaer-wolf-cabrio-5-sitzplaetze-tisch-diesel-zielony-97034405-3aad-4560-8da3-afdef9b51aa2?cldtidx=20",
-    "scrapeDate": "2019-08-21T03:01:04.963Z"
+  "https://www.autoscout24.pl/oferta/mercedes-benz-g-250-2-5-diesel-wolf-bundeswehr-cabrio-ahk-diesel-zielony-ad3955a2-5769-4980-b619-51b0c6e92b5a?cldtidx=19": {
+    "name": "Mercedes-Benz G 250 2.5 Diesel WOLF Bundeswehr CABRIO AHK",
+    "price": "€ 12.700,-",
+    "link": "https://www.autoscout24.pl/oferta/mercedes-benz-g-250-2-5-diesel-wolf-bundeswehr-cabrio-ahk-diesel-zielony-ad3955a2-5769-4980-b619-51b0c6e92b5a?cldtidx=19",
+    "scrapeDate": "2019-08-23T02:54:12.568Z"
   },
-  "https://www.otomoto.pl/oferta/mercedes-benz-klasa-g-mercedes-g-klasa-2-9-diesel-gelenda-ID6BPjQx.html": {
-    "name": "Mercedes-Benz Klasa G W463\nMercedes G Klasa 2.9 Diesel Gelenda",
-    "price": "54 000 PLN",
-    "link": "https://www.otomoto.pl/oferta/mercedes-benz-klasa-g-mercedes-g-klasa-2-9-diesel-gelenda-ID6BPjQx.html",
-    "scrapeDate": "2019-08-21T03:01:05.237Z"
+  "https://www.autoscout24.pl/oferta/mercedes-benz-g-300-classe-g-300-turbo-preparato-omologato-asi-diesel-czarny-7be53fa3-fabd-46e1-aed9-8da95fc5dade?cldtidx=20": {
+    "name": "Mercedes-Benz G 300 Classe g 300 turbo preparato omologato asi",
+    "price": "€ 12.800,-",
+    "link": "https://www.autoscout24.pl/oferta/mercedes-benz-g-300-classe-g-300-turbo-preparato-omologato-asi-diesel-czarny-7be53fa3-fabd-46e1-aed9-8da95fc5dade?cldtidx=20",
+    "scrapeDate": "2019-08-23T02:54:12.568Z"
   },
-  "https://www.otomoto.pl/oferta/mercedes-benz-klasa-g-2-9-gd-290gd-salon-pl-f-vat-23-ID6CmLW5.html": {
-    "name": "Mercedes-Benz Klasa G W463\n2.9 GD 290GD Salon PL F-VAT 23%",
-    "price": "28 900 PLN\nFaktura VAT",
-    "link": "https://www.otomoto.pl/oferta/mercedes-benz-klasa-g-2-9-gd-290gd-salon-pl-f-vat-23-ID6CmLW5.html",
-    "scrapeDate": "2019-08-21T03:01:05.237Z"
+  "https://www.otomoto.pl/oferta/mercedes-benz-klasa-g-wyprawowy-ID6CqDbC.html": {
+    "name": "Mercedes-Benz Klasa G W463\nWyprawowy",
+    "price": "69 900 PLN\nDo negocjacji, Faktura VAT",
+    "link": "https://www.otomoto.pl/oferta/mercedes-benz-klasa-g-wyprawowy-ID6CqDbC.html",
+    "scrapeDate": "2019-08-23T02:54:12.739Z"
   },
-  "https://www.otomoto.pl/oferta/mercedes-benz-klasa-g-mercedes-benz-klasa-g-wolf-w460-diesel-suv-oryginal-stan-faktura-vat-ID6BUmM6.html": {
-    "name": "Mercedes-Benz Klasa G W460\nMercedes Benz klasa G Wolf W460 Diesel SUV oryginał stan Faktura VAT",
-    "price": "45 510 PLN\nMożliwość odliczenia VAT, Do negocjacji, Faktura VAT",
-    "link": "https://www.otomoto.pl/oferta/mercedes-benz-klasa-g-mercedes-benz-klasa-g-wolf-w460-diesel-suv-oryginal-stan-faktura-vat-ID6BUmM6.html",
-    "scrapeDate": "2019-08-21T03:01:05.238Z"
-  },
-  "https://www.otomoto.pl/oferta/mercedes-benz-klasa-g-3-0-d-vat1-vat-1-vat-1-mozliwosc-rejestracji-na-5-7-osob-ID6Cp5Fn.html": {
-    "name": "Mercedes-Benz Klasa G W463\n3.0 D VAT1 VAT 1 VAT 1 Możliwość Rejestracji na 5 7 Osób",
-    "price": "49 900 PLN\nDo negocjacji, Faktura VAT",
-    "link": "https://www.otomoto.pl/oferta/mercedes-benz-klasa-g-3-0-d-vat1-vat-1-vat-1-mozliwosc-rejestracji-na-5-7-osob-ID6Cp5Fn.html",
-    "scrapeDate": "2019-08-21T03:01:05.238Z"
-  },
-  "https://www.otomoto.pl/oferta/mercedes-benz-klasa-g-ID6BDj96.html": {
-    "name": "Mercedes-Benz Klasa G W463",
-    "price": "34 440 PLN\nMożliwość odliczenia VAT, Do negocjacji, Faktura VAT",
-    "link": "https://www.otomoto.pl/oferta/mercedes-benz-klasa-g-ID6BDj96.html",
-    "scrapeDate": "2019-08-21T03:01:05.238Z"
-  },
-  "https://www.otomoto.pl/oferta/mercedes-benz-klasa-g-wyjatkowy-egzemplarz-z-b-malym-przebiegiem-ID6zIpUK.html": {
-    "name": "Mercedes-Benz Klasa G W463\nWyjątkowy egzemplarz z b.małym przebiegiem.",
-    "price": "59 900 PLN",
-    "link": "https://www.otomoto.pl/oferta/mercedes-benz-klasa-g-wyjatkowy-egzemplarz-z-b-malym-przebiegiem-ID6zIpUK.html",
-    "scrapeDate": "2019-08-21T03:01:05.238Z"
-  },
-  "https://www.otomoto.pl/oferta/mercedes-benz-klasa-g-240gd-lwb-raptor-ID6BP8ik.html": {
-    "name": "Mercedes-Benz Klasa G W460\n240GD LWB Raptor",
-    "price": "97 170 PLN\nMożliwość odliczenia VAT, Do negocjacji, Faktura VAT",
-    "link": "https://www.otomoto.pl/oferta/mercedes-benz-klasa-g-240gd-lwb-raptor-ID6BP8ik.html",
-    "scrapeDate": "2019-08-21T03:01:05.238Z"
+  "https://www.otomoto.pl/oferta/mercedes-benz-klasa-g-g-klasa-z-wojska-ksiazka-serwisowa-gd-240-dluga-wersja-ID6C6vmx.html": {
+    "name": "Mercedes-Benz Klasa G W460\nG Klasa z wojska,książka serwisowa GD 240 długa wersja",
+    "price": "43 050 PLN\nMożliwość odliczenia VAT, Do negocjacji, Faktura VAT",
+    "link": "https://www.otomoto.pl/oferta/mercedes-benz-klasa-g-g-klasa-z-wojska-ksiazka-serwisowa-gd-240-dluga-wersja-ID6C6vmx.html",
+    "scrapeDate": "2019-08-23T02:54:12.740Z"
   },
   "https://www.otomoto.pl/oferta/mercedes-benz-klasa-g-g300-diesel-absolutnie-bez-korozji-doinwestowany-ID6C7etx.html": {
     "name": "Mercedes-Benz Klasa G W460\nG300 diesel absolutnie bez korozji doinwestowany",
     "price": "49 900 PLN",
     "link": "https://www.otomoto.pl/oferta/mercedes-benz-klasa-g-g300-diesel-absolutnie-bez-korozji-doinwestowany-ID6C7etx.html",
-    "scrapeDate": "2019-08-21T03:01:05.238Z"
+    "scrapeDate": "2019-08-23T02:54:12.740Z"
+  },
+  "https://www.otomoto.pl/oferta/mercedes-benz-klasa-g-2-9-gd-290gd-salon-pl-f-vat-23-ID6CmLW5.html": {
+    "name": "Mercedes-Benz Klasa G W463\n2.9 GD 290GD Salon PL F-VAT 23%",
+    "price": "28 900 PLN\nFaktura VAT",
+    "link": "https://www.otomoto.pl/oferta/mercedes-benz-klasa-g-2-9-gd-290gd-salon-pl-f-vat-23-ID6CmLW5.html",
+    "scrapeDate": "2019-08-23T02:54:12.740Z"
+  },
+  "https://www.otomoto.pl/oferta/mercedes-benz-klasa-g-mercedes-g-klasa-2-9-diesel-gelenda-ID6BPjQx.html": {
+    "name": "Mercedes-Benz Klasa G W463\nMercedes G Klasa 2.9 Diesel Gelenda",
+    "price": "54 000 PLN",
+    "link": "https://www.otomoto.pl/oferta/mercedes-benz-klasa-g-mercedes-g-klasa-2-9-diesel-gelenda-ID6BPjQx.html",
+    "scrapeDate": "2019-08-23T02:54:12.740Z"
+  },
+  "https://www.otomoto.pl/oferta/mercedes-benz-klasa-g-mercedes-benz-klasa-g-wolf-w460-diesel-suv-oryginal-stan-faktura-vat-ID6BUmM6.html": {
+    "name": "Mercedes-Benz Klasa G W460\nMercedes Benz klasa G Wolf W460 Diesel SUV oryginał stan Faktura VAT",
+    "price": "45 510 PLN\nMożliwość odliczenia VAT, Do negocjacji, Faktura VAT",
+    "link": "https://www.otomoto.pl/oferta/mercedes-benz-klasa-g-mercedes-benz-klasa-g-wolf-w460-diesel-suv-oryginal-stan-faktura-vat-ID6BUmM6.html",
+    "scrapeDate": "2019-08-23T02:54:12.741Z"
+  },
+  "https://www.otomoto.pl/oferta/mercedes-benz-klasa-g-3-0-d-vat1-vat-1-vat-1-mozliwosc-rejestracji-na-5-7-osob-ID6Cp5Fn.html": {
+    "name": "Mercedes-Benz Klasa G W463\n3.0 D VAT1 VAT 1 VAT 1 Możliwość Rejestracji na 5 7 Osób",
+    "price": "49 900 PLN\nDo negocjacji, Faktura VAT",
+    "link": "https://www.otomoto.pl/oferta/mercedes-benz-klasa-g-3-0-d-vat1-vat-1-vat-1-mozliwosc-rejestracji-na-5-7-osob-ID6Cp5Fn.html",
+    "scrapeDate": "2019-08-23T02:54:12.741Z"
+  },
+  "https://www.otomoto.pl/oferta/mercedes-benz-klasa-g-ID6BDj96.html": {
+    "name": "Mercedes-Benz Klasa G W463",
+    "price": "34 440 PLN\nMożliwość odliczenia VAT, Do negocjacji, Faktura VAT",
+    "link": "https://www.otomoto.pl/oferta/mercedes-benz-klasa-g-ID6BDj96.html",
+    "scrapeDate": "2019-08-23T02:54:12.741Z"
+  },
+  "https://www.otomoto.pl/oferta/mercedes-benz-klasa-g-wyjatkowy-egzemplarz-z-b-malym-przebiegiem-ID6zIpUK.html": {
+    "name": "Mercedes-Benz Klasa G W463\nWyjątkowy egzemplarz z b.małym przebiegiem.",
+    "price": "59 900 PLN",
+    "link": "https://www.otomoto.pl/oferta/mercedes-benz-klasa-g-wyjatkowy-egzemplarz-z-b-malym-przebiegiem-ID6zIpUK.html",
+    "scrapeDate": "2019-08-23T02:54:12.741Z"
   },
   "https://www.otomoto.pl/oferta/mercedes-benz-klasa-g-240-gd-comando-zarejestrowany-f-vat-vat1b-ciezarowy-ID6C7Gr4.html": {
     "name": "Mercedes-Benz Klasa G W460\n240 GD COMANDO, Zarejestrowany, f vat, VAT1B ciężarowy.",
     "price": "25 000 PLN\nFaktura VAT",
     "link": "https://www.otomoto.pl/oferta/mercedes-benz-klasa-g-240-gd-comando-zarejestrowany-f-vat-vat1b-ciezarowy-ID6C7Gr4.html",
-    "scrapeDate": "2019-08-21T03:01:05.238Z"
-  },
-  "/oferta/land-rover-defender-90-2-5-tdi-hard-top-diesel-bialy-8255eb8f-c336-5924-e053-e250040ad7ed?cldtidx=5": {
-    "name": "Land Rover Defender 90 2.5 Tdi Hard-top",
-    "price": "€ 27.000,-",
-    "link": "/oferta/land-rover-defender-90-2-5-tdi-hard-top-diesel-bialy-8255eb8f-c336-5924-e053-e250040ad7ed?cldtidx=5",
-    "scrapeDate": "2019-08-21T03:01:05.962Z"
-  },
-  "/oferta/land-rover-defender-110-ht-diesel-niebieski-defb968f-46a0-0d14-e053-e250040a832a?cldtidx=6": {
-    "name": "Land Rover Defender 110 HT",
-    "price": "€ 14.000,-",
-    "link": "/oferta/land-rover-defender-110-ht-diesel-niebieski-defb968f-46a0-0d14-e053-e250040a832a?cldtidx=6",
-    "scrapeDate": "2019-08-21T03:01:05.962Z"
-  },
-  "/oferta/land-rover-defender-2-5d-90-hard-top-diesel-szary-4d4c378f-7dc1-f53e-e053-e250040a06dc?cldtidx=7": {
-    "name": "Land Rover Defender 2.5D 90\" Hard Top",
-    "price": "€ 5.500,-",
-    "link": "/oferta/land-rover-defender-2-5d-90-hard-top-diesel-szary-4d4c378f-7dc1-f53e-e053-e250040a06dc?cldtidx=7",
-    "scrapeDate": "2019-08-21T03:01:05.962Z"
-  },
-  "/oferta/land-rover-defender-90-2-5-tdi-diesel-zielony-4f840db2-9832-4c97-adea-ed60051b121b?cldtidx=8": {
-    "name": "Land Rover Defender 90 2.5 Tdi",
-    "price": "€ 15.000,-",
-    "link": "/oferta/land-rover-defender-90-2-5-tdi-diesel-zielony-4f840db2-9832-4c97-adea-ed60051b121b?cldtidx=8",
-    "scrapeDate": "2019-08-21T03:01:05.962Z"
-  },
-  "/oferta/land-rover-defender-lier-diesel-bezowy-9785f929-ad2c-459a-90ee-3757215c0697?cldtidx=9": {
-    "name": "Land Rover Defender Lier",
-    "price": "€ 4.250,-",
-    "link": "/oferta/land-rover-defender-lier-diesel-bezowy-9785f929-ad2c-459a-90ee-3757215c0697?cldtidx=9",
-    "scrapeDate": "2019-08-21T03:01:05.962Z"
-  },
-  "/oferta/land-rover-defender-110-tdi-sw-diesel-zielony-c1a2f58e-c345-953b-e053-e250040ac3be?cldtidx=10": {
-    "name": "Land Rover Defender 110 TDI SW",
-    "price": "€ 25.000,-",
-    "link": "/oferta/land-rover-defender-110-tdi-sw-diesel-zielony-c1a2f58e-c345-953b-e053-e250040ac3be?cldtidx=10",
-    "scrapeDate": "2019-08-21T03:01:05.962Z"
-  },
-  "/oferta/land-rover-defender-motore-con-7-000-km-diesel-zielony-52f4cbef-217b-4b5a-9329-94660fefe253?cldtidx=11": {
-    "name": "Land Rover Defender MOTORE CON 7.000 KM",
-    "price": "€ 12.500,-",
-    "link": "/oferta/land-rover-defender-motore-con-7-000-km-diesel-zielony-52f4cbef-217b-4b5a-9329-94660fefe253?cldtidx=11",
-    "scrapeDate": "2019-08-21T03:01:05.962Z"
-  },
-  "/oferta/land-rover-defender-90-2-5-tdi-hard-top-unico-diesel-niebieski-4346863f-5c7b-4e49-9708-001e195fc3fe?cldtidx=13": {
-    "name": "Land Rover Defender 90 2.5 Tdi Hard-top ***UNICO***",
-    "price": "€ 26.200,-",
-    "link": "/oferta/land-rover-defender-90-2-5-tdi-hard-top-unico-diesel-niebieski-4346863f-5c7b-4e49-9708-001e195fc3fe?cldtidx=13",
-    "scrapeDate": "2019-08-21T03:01:05.962Z"
-  },
-  "/oferta/land-rover-defender-90-2-5-tdi-hard-top-diesel-szary-3e74808e-ea5d-b466-e053-e250040a5850?cldtidx=14": {
-    "name": "Land Rover Defender 90 2.5 Tdi Hard-top",
-    "price": "€ 21.000,-",
-    "link": "/oferta/land-rover-defender-90-2-5-tdi-hard-top-diesel-szary-3e74808e-ea5d-b466-e053-e250040a5850?cldtidx=14",
-    "scrapeDate": "2019-08-21T03:01:05.962Z"
-  },
-  "/oferta/land-rover-defender-90tdi-200tdi-1992-oldtimer-diesel-zielony-fa4f26fd-f52a-4bc6-8b96-a4228bad183e?cldtidx=16": {
-    "name": "Land Rover Defender 90TDi (200Tdi) - 1992 - OLDTIMER",
-    "price": "€ 18.750,-",
-    "link": "/oferta/land-rover-defender-90tdi-200tdi-1992-oldtimer-diesel-zielony-fa4f26fd-f52a-4bc6-8b96-a4228bad183e?cldtidx=16",
-    "scrapeDate": "2019-08-21T03:01:05.962Z"
-  },
-  "/oferta/land-rover-defender-90-2-5-tdi-hard-top-autocarro-diesel-zielony-9762915d-b998-4f85-8c5d-f9b10313de16?cldtidx=17": {
-    "name": "Land Rover Defender 90 2.5 Tdi Hard-top AUTOCARRO",
-    "price": "€ 6.400,-",
-    "link": "/oferta/land-rover-defender-90-2-5-tdi-hard-top-autocarro-diesel-zielony-9762915d-b998-4f85-8c5d-f9b10313de16?cldtidx=17",
-    "scrapeDate": "2019-08-21T03:01:05.963Z"
-  },
-  "/oferta/land-rover-defender-110-2-5-tdi-station-wagon-count-diesel-bialy-4bcddc8d-a966-9c20-e053-e250040af697?cldtidx=19": {
-    "name": "Land Rover Defender 110 2.5 Tdi Station Wagon Count",
-    "price": "€ 12.000,-",
-    "link": "/oferta/land-rover-defender-110-2-5-tdi-station-wagon-count-diesel-bialy-4bcddc8d-a966-9c20-e053-e250040af697?cldtidx=19",
-    "scrapeDate": "2019-08-21T03:01:05.963Z"
-  },
-  "/oferta/land-rover-defender-90-2-5-tdi-autovettura-6-posti-gancio-traino-diesel-bialy-7504cc8d-c389-955f-e053-e250040aed88?cldtidx=20": {
-    "name": "Land Rover Defender 90 2.5 Tdi AUTOVETTURA 6 POSTI - GANCIO TRAINO",
-    "price": "€ 10.900,-",
-    "link": "/oferta/land-rover-defender-90-2-5-tdi-autovettura-6-posti-gancio-traino-diesel-bialy-7504cc8d-c389-955f-e053-e250040aed88?cldtidx=20",
-    "scrapeDate": "2019-08-21T03:01:05.963Z"
+    "scrapeDate": "2019-08-23T02:54:12.741Z"
   }
 }

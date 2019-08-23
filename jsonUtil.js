@@ -60,13 +60,27 @@ const publishData = (inventory, sns) => {
   sendSms(inventoryToPublish, sns);
 };
 
+const formatVehicleAsHtmlEmailText = ({ name, price, link }) => {
+  return `<div><p><strong>Name:</strong>${name},</p><p><strong>Price:</strong>${price}</p><p><strong>Link:</strong><a href='${link}'>${link}</a></p></div>`;
+};
+
+async function invokeAllScraperJobs(scraperJobs) {
+  scraperJobs.forEach(async scraperJob => {
+    await scraperJob;
+  });
+
+  return true;
+}
+
 module.exports = {
   readInventoryAsJson,
   writeInventoryAsJson,
   getHasedVehicleJson,
   vehicleIsFromToday,
   formatVehicleAsSmsString,
+  formatVehicleAsHtmlEmailText,
   getInventoryToSendAsSms,
   sendSms,
-  publishData
+  publishData,
+  invokeAllScraperJobs
 };
