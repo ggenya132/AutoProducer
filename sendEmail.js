@@ -5,8 +5,8 @@ module.exports = (emails, html) => {
     const msg = {
       to: email,
       from: 'scraper@babyneedsagwagon.com',
-      subject: 'Sending with SendGrid is Fun',
-      text: 'test',
+      subject: 'All the newest rides',
+      text: 'Vehicles added over the last day:',
       html
     };
     SGmail.send(msg)
