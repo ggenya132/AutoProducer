@@ -11,11 +11,15 @@ const { subscribers } = require('./config.json');
 const interval = 1 * 60 * 60 * 1000;
 
 const scraperJobs = require('./scraper-jobs');
-invokeAllScraperJobs(scraperJobs);
-let formattedNewInventory = getAllNewInventory(require('./inventory.json'), interval)
-  .map(formatVehicleAsHtmlEmailText)
-  .join('')
-  .trim();
-console.log('Sending email to: ' + subscribers);
-// console.log('Email content' + formattedNewInventory);
-require('./sendEmail')(subscribers, formattedNewInventory);
+invokeAllScraperJobs(scraperJobs).then(allScrapesAreDone => {
+  let formattedNewInventory = getAllNewInventory(
+    require('./inventory.json'),
+    interval
+  )
+    .map(formatVehicleAsHtmlEmailText)
+    .join('')
+    .trim();
+  console.log('Sending email to: ' + subscribers);
+  console.log('Email content' + formattedNewInventory);
+  require('./sendEmail')(subscribers, formattedNewInventory);
+});

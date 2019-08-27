@@ -12,7 +12,7 @@ const writeInventoryAsJson = async (newInventory, callback) => {
 };
 getHasedVehicleJson = vehicle => {
   console.log('Hashing vehicle ' + vehicle.name);
-  if(vehicle) {
+  if (vehicle) {
     console.log(vehicle);
     const key = vehicle.link;
     const hashedVehicleJson = {};
@@ -24,7 +24,11 @@ getHasedVehicleJson = vehicle => {
 };
 const getAllNewInventory = (inventory, interval) => {
   const newInventory = [];
-  console.log('Getting all vehicles added within last '+(interval/(1000*60))+' minutes');
+  console.log(
+    'Getting all vehicles added within last ' +
+      interval / (1000 * 60) +
+      ' minutes'
+  );
   for (key in inventory) {
     const vehicle = inventory[key];
     if (vehicleIsNew(vehicle, interval)) {
@@ -72,12 +76,7 @@ const formatVehicleAsHtmlEmailText = ({ name, price, link }) => {
 };
 
 function invokeAllScraperJobs(scraperJobs) {
-  console.log('Starting scrape at '+(new Date()));
-  scraperJobs.forEach(async scraperJob => {
-    await scraperJob();
-  });
-  console.log('Scraping complete');
-  return true;
+  return Promise.all(scraperJobs.map(fnc => fnc()));
 }
 
 module.exports = {
