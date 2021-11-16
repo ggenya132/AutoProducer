@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "@sendgrid/mail": "^6.4.0",
-    "aws-sdk": "^2.507.0",
+    "aws-sdk": "^2.814.0",
     "puppeteer": "^1.19.0"
   }
 }
